@@ -26,7 +26,7 @@ nav a  { padding: 12px;}
 footer   {padding: 25px 50px;}
 footer .social img   {padding-top: 15px;}
 .home-title  { margin-top: 10px;}
-.book, .join  { margin-top: 50px;}
+.book, .join, .checkout  { margin-top: 50px;}
 .rivers-card, .camping-card, .rapids-card  { margin: 200px 0;}
 footer   {margin-top: 200px;}
 .card-img {
@@ -188,7 +188,7 @@ footer a{
     color: #fcfbfb;
     text-decoration: none;
 }
-.book, .join{
+.book, .join, .checkout{
     color: #d9c2a3;}
 
 .book:hover{background-color: #EF8354;
@@ -197,6 +197,7 @@ footer a{
 .join:hover{background-color: #EF8354;
     color: #d9c2a3;
 }
+
 
 
 
@@ -288,3 +289,86 @@ footer a:hover{background-color: #EF8354;
         margin-top: 25px;
     }
 }
+
+
+/* rates */
+#rates{ padding: 20px;}
+.r8s {background-color: var(--header);}
+.r8s p{background-color: var(--header);
+    font-size: .8em;
+    color: white;
+    text-align: center;
+}
+.checkout-box{
+    background-color: var(--header);
+    text-align: center;
+    text-decoration: none
+}
+.r8s a {
+    background-color: var(--header);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+.checkout:hover{background-color: #EF8354;
+    color: #d9c2a3;
+}
+.r8s h2{background-color: var(--header);
+    color: var(--primary-color);
+    text-align: center;}
+
+
+
+
+/* rates grid */
+.rates-grid{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    gap: 20px;
+    grid-auto-rows:1fr, 1fr, 1fr;
+}
+    .canyon-three-img {
+        height:250px;
+        width: 250px;
+    }
+    .canyon-three{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    
+    .gc3 {
+        text-align:center;
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+
+    .canyon-six-img {
+        height:250px;
+        width: 250px;
+    }
+    .canyon-six{
+        grid-column: 1/2;
+        grid-row: 2
+    }
+    
+    .gc6 {
+        text-align:center;
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+    
+    .salmon-five-img{
+        height:250px;
+        width: 250px;
+    }
+    .salmon-five{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+    .sr5 {
+        text-align:center;
+        grid-column: 2/3;
+        grid-row: 3;
+    }
