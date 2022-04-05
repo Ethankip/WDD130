@@ -31,9 +31,15 @@
     opacity: 1;
   }
   
-  .text {
+  .button-box {
     background-color: #04AA6D;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
   }
+  .button-box:hover{
+    font-size: 18px;
+    background-color: orangered;
+    text-decoration: none;}
+
+  a {color:white;}
