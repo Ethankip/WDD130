@@ -208,7 +208,7 @@ h2 {
 #copyright {
     background-color: var(--primary-color);
     display: flex;
-    align-items: left;
+    text-align: left;
 } 
 h3, p{
     color: var(--header);
