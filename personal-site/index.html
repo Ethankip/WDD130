@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training Plans Made Easy | Training4u | Homes </title>
+    <title>Training Plans Made Easy | Training4u | Home </title>
 </head>
 <body>
     <div id="content">
@@ -44,15 +44,21 @@
 
         <main class="home-grid">
             <section class="plymetrics">
-                <img class="cross-img" src="pictures/plymetrics.jpg" alt="plymetrics image">
+                <a id="cross-link" href="training.html">
+                    <img class="cross-img" src="pictures/plymetrics.jpg" alt="plymetrics image">
+                </a>
                 <h2>Injury Prevention</h2>
             </section>
             <section class="speed">
-                <img class="speed-img" src="pictures/track.jpg" alt="speed image">
+                <a id="speed-link" href="training.html">
+                    <img class="speed-img" src="pictures/track.jpg" alt="speed image">
+                </a>
                 <h2>Develop Speed</h2>
             </section>
             <section class="recover">
-                <img class="recover-img" src="pictures/asfault-running.jpg" alt="recover image">
+                <a id="recover-link" href="training.html">
+                    <img class="recover-img" src="pictures/asfault-running.jpg" alt="recover image">
+                </a>
                 <h2>Build Endurance</h2>
             </section>
             </div> 
@@ -63,10 +69,12 @@
                 <section class="E-mail-list">
                     <h3>Join Our E-mail List</h3>
                     <p>Get helpful training tips and tricks every week! </p>
-                    <form action="/emial-list" method="post">
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email">
-                    </form>
+                    <div id="mailing-list"> </div>
+                    <form action="email-list.html">
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email">
+                        <input type="submit">
+                      </form>
                 </section>
                 <section class="social">
                     <h3>Join Our Socials</h3>
@@ -94,5 +102,6 @@
             <p> Training4u &copy; 2022 - Ethan Smith</p>
             </div>
     </div>
+
 </body>
 </html>

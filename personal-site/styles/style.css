@@ -53,6 +53,7 @@ nav a{
     text-align: center;
     background-color: var(--primary-color);
     color: var(--header);
+    font-family: var(--heading-font);
     text-decoration: none;
     padding: 35px;
 }
@@ -90,10 +91,12 @@ nav a:hover{background-color: var(--hover);
 #hero-msg-one h1 { 
     text-align: center;
     color: var(--primary-color);
+    font-family: var(--heading-font);
 }
 #hero-msg-one h4{ 
     text-align: center;
     color: var(--primary-color);
+    font-family: var(--paragraph-font);
 }
 
 
@@ -125,10 +128,12 @@ nav a:hover{background-color: var(--hover);
 #hero-msg-two h1 { 
     text-align: center;
     color: var(--primary-color);
+    font-family: var(--heading-font);
 }
 #hero-msg-two h4{ 
     text-align: center;
     color: var(--primary-color);
+    font-family: var(--paragraph-font);
 }
 
 
@@ -142,9 +147,24 @@ nav a:hover{background-color: var(--hover);
     background-color: var(--background);
 }
 .cross-img, .speed-img, .recover-img {
+    opacity: 1;
+    display: block;
     width: 100%;
     height: auto;
-}
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .plymetrics:hover .cross-img {
+    opacity: 0.3;
+  }
+  .speed:hover .speed-img {
+    opacity: 0.3;
+  }
+  .recover:hover .recover-img {
+    opacity: 0.3;
+  }
+  
 .plymetrics {
     grid-column: 2/4;
     grid-row: 2/3;}
@@ -155,7 +175,11 @@ nav a:hover{background-color: var(--hover);
     grid-column: 8/10;
     grid-row:2/3;
 } 
-h2 {color: var(--header)}
+h2 {
+    color: var(--header);
+    font-family: var(--heading-font);
+}
+
 
 
 
@@ -187,8 +211,12 @@ h2 {color: var(--header)}
     align-items: left;
 } 
 h3, p{
-    color: var(--header)
+    color: var(--header);
+    font-family: var(--paragraph-font);
 }
+label {color: var(--header);
+    font-family: var(--paragraph-font);}
+
 a{ 
     background-color: var(--primary-color);
     color: var(--header);
@@ -207,5 +235,6 @@ a:hover{background-color: var(--hover);
     width: 50px;
     height: 50px;
 }
+
 
 
