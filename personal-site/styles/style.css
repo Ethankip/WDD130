@@ -337,8 +337,6 @@ a:hover{background-color: var(--hover);
   .container-three:hover .middle-three{
     opacity: 1;
   }
-
-
   
 .training-plan-speed {
     grid-column: 2/4;
@@ -362,8 +360,6 @@ a:hover{background-color: var(--hover);
     font-family: var(--paragraph-font);
 }
 
-
-
 .middle-box{
     font-size: 12px;
     background-color: var(--primary-color);
@@ -371,7 +367,6 @@ a:hover{background-color: var(--hover);
     text-decoration: none;
     border-radius: 5px;
 }
-
 .middle-box:hover {
     font-size: 18px;
     background-color: var(--hover);
@@ -386,7 +381,6 @@ a:hover{background-color: var(--hover);
     text-decoration: none;
     border-radius: 5px;
 }
-
 .middle-box:hover a{
     font-size: 18px;
     background-color: var(--hover);
