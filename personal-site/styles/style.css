@@ -67,6 +67,7 @@ nav a:hover{background-color: var(--hover);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 10px;
 
 }
 
@@ -103,6 +104,7 @@ nav a:hover{background-color: var(--hover);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 10px;
 }
 
 #hero-box-two{
