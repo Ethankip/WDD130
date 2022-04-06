@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Plans Made Easy | Training4u | Home </title>
+</head>
+<body>
 <div id="content">
     <header>
         <a id="logo_link" href="index.html">
@@ -12,63 +22,79 @@
         </nav>
     </header>
 
-    <div id="background"></div> 
-    <img class="journey" src="pictures/journey.jpg" alt="Mountain Running">
-    <section class="msg">
-        <h2>The Start Of A journey </h2>
-        <p>We are not just another generic training plan. With our personalized touch, you can begin your running journey now! We will try to keep you injury free and constantly progressing. </p>
-        <a class='coaching' href="coaches.html">Online Coaching</a>
-    </section>
+    <div id="training-hero">
+        <div id="hero-train-img">
+            <img class="journey-img" src="pictures/journey.jpg" alt="Mountain Running">
+        </div>
+        <section class="msg-training">
+            <h2>The Start Of A journey </h2>
+            <p>We are not just another generic training plan. With our personalized touch, you can begin your running journey now! We will try to keep you injury free and constantly progressing. </p>
+            <div class='coaching-box'>
+                <a class='coaching' href="coaches.html">Coaching</a>
+            </div>
+        </section>
+    </div>    
+
 
     <main class="training-grid">
         <section class="training-plan-speed">
-            <div id="short-distance-image">
-                <img class="speed-image" src="pictures/short-distance.jpg" alt="short-distance">
+            <div class="container-one">
+                <img class="short-img" src="pictures/short-distance.jpg" alt="short-distance">
+                <div class="middle-one">
+                    <div class='middle-box'>
+                        <a class='plan-one' href="pictures/short-distance-plan.pdf"> Download</a>
+                    </div>
+                </div>  
             </div>
             <div id="speed-plan">
             <h3>Short Distance Runner</h3>
             <p>Are you working towards getting faster in the 400m, 800m or maybe even 300m hurdles? Well then this plan emphasizes low mileage and high intensity workouts as well as cross training to build strength. In no time at all you will be a speed demon with these workouts!  </p>
-            <a class='plan-one' href="">Download</a>
             </div>
         </section>
 
         <section class="training-plan-mid">
-            <div id="mid-distance-image">
+            <div class="container-two">
                 <img class="mid-img" src="pictures/middle-distance.jpg" alt="middle-distance">
+                <div class="middle-two">
+                    <div class='middle-box'>
+                        <a class='plan-two' href="pictures/mid-distance-plan.pdf">Download</a>
+                    </div>
+                </div>  
             </div>
             <div id="middle-distance-plan">
             <h3>Middle Distance Runner</h3>
-            <p>Are you trying to get faster in the Mile, 3200m or even 5k? Then we suggest a good mix of endurance and speed workouts with a heavy emphasis on stregnth. Building an efficient base is key at the start of this plan and once you combine that with fast closing speed, then you will dominate!  </p>
-            <a class='plan-two' href="">Download</a>
+            <p>Are you trying to get faster in the Mile, 3200m or even 5k? Then we suggest a good mix of endurance and speed workouts with a heavy emphasis on stregnth. Building an efficient base is key at the start of this plan and then combining that with fast closing speed!  </p>
             </div>
         </section>
 
         <section class="training-plan-long">
-            <div id="long-distance-image">
-                <img class="distance-img" src="pictures/long-distance.jpg" alt="long-distance">
+            <div class="container-three">
+                <img class="dist-img" src="pictures/long-distance.jpg" alt="long-distance">
+                <div class="middle-three">
+                    <div class='middle-box'>
+                        <a class='plan-three' href="pictures/long-distance-plan.pdf">Download</a>
+                    </div>
+                </div>  
             </div>
             <div id="long-distance-plan">
             <h3>Long Distance Runner</h3>
-            <p>This plan is made to help people build a great aerobic base to train for longer races like the 5k, 10k,and the half or full marathon. That means lots of mileage and tempo runs to help increase your lactate threshold and gain endurance. To avoid injuries recover is a big priority in this training plan.   </p>
-            <a class='plan-three' href="">Download</a>
+            <p>This plan is made to help people build a great aerobic base to train for longer races like the 5k, 10k,and the half or full marathon. That means lots of mileage and tempo runs to help increase your lactate threshold and gain endurance to ensure you can go the distance! </p>
             </div>
         </section>
-
     </main>
 
-
-    <footer>
+    <footer class="bottom-grid">
         <section class="E-mail-list">
             <h3>Join Our E-mail List</h3>
             <p>Get helpful training tips and tricks every week! </p>
-            <form action="/emial-list" method="post">
-                 <li>
-                   <label for="mail">E-mail:</label>
-                   <input type="email" id="mail" name="user_email">
-                 </li>
-               </form>
+            <div id="mailing-list"> </div>
+            <form action="email-list.html">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit">
+              </form>
         </section>
-        <div class="social">
+        <section class="social">
             <h3>Join Our Socials</h3>
             <a href="https://facebook.com" target="_blank">
                 <img src="pictures/facebook.png" alt="fb icon">
@@ -79,22 +105,20 @@
             <a href="https://instagram.com" target="_blank">
                 <img src="pictures/instagram.png" alt="instagram icon">
             </a>
-        </div>
-        <div id="site-plan">
+        </section>
+        <section class="site-plan">
             <h3>Learn More About Our Company</h3>
             <div class='button-box'>
                 <a class='company-info' href="site-plan.html">Site Plan</a>
             </div>
-        </div>
-        <div id="copyright">
-        <h3>Training4u </h3>
-        <a id="logo_link" href="index.html">
-            <img class="running-logo" src="pictures/running-logo.png" alt="Training4u Logo">
+        </section>
+    </footer>
+    <div id="copyright">
+        <a id="logo_link-two" href="index.html">
+            <img class="running-logo-two" src="pictures/running-logo.png" alt="Training4u Logo">
         </a>
-        <h3> WDD-130/Ethan Smith &copy; 2022 </h3>
-        </div>
-        </footer>
-
+        <p> Training4u &copy; 2022 - Ethan Smith</p>
+    </div>
 </div>
 </body>
 </html>
